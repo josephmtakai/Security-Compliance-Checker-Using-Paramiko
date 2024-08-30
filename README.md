@@ -49,6 +49,19 @@ python compliance_checker.py
 Output
 Compliance reports are generated in the reports/ directory, one for each server.
 
+Images:
+1. IP 172.168.12.2
+![IP_2](https://github.com/user-attachments/assets/f96fbe46-f59d-4abd-a554-277e6b34728c)
+
+2. IP 172.168.12.3
+![IP_3](https://github.com/user-attachments/assets/0547ae83-2a24-493b-9733-b2622d252f44)
+
+3. IP 172.168.12.4
+![IP_4](https://github.com/user-attachments/assets/13bd1b9b-0b64-46f0-afe6-3733bb49d390)
+
+4. IP 172.168.12.5
+![IP_5](https://github.com/user-attachments/assets/fb1a36df-6c5a-4c27-b064-96114e493f21)
+
 Contributing
 Contributions are welcome! Feel free to fork this repository, make your changes, and submit a pull request.
 
