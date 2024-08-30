@@ -1,0 +1,12 @@
+---
+servers:
+  - hostname: "172.168.16.2"
+    username: "admin"
+    password: "password123"
+    port: 22
+    description: "Web Server 1"
+  - hostname: "172.168.16.3"
+    username: "admin"
+    password: "password123"
+    port: 22
+    description: "Database Server 1"

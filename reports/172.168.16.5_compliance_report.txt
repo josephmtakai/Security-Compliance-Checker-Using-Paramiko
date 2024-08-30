@@ -1,0 +1,12 @@
+Compliance Report for Load Balancer 1 (172.168.16.5)
+Generated on: 2024-08-30 17:53:57.286325
+
+Item                                    Status
+--------------------------------------------------
+Firewall is active                       PASS
+SSH protocol is version 2                FAIL
+Root login is disabled                   PASS
+All packages are up to date              FAIL
+Strong password policy is enforced       PASS
+SELinux is enabled                       FAIL
+Antivirus is installed and up to date    PASS

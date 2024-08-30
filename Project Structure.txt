@@ -1,0 +1,17 @@
+This project will involve creating a Python script that connects to remote servers via SSH using the Paramiko library. The script will automate the checking of specific security compliance configurations on the servers, such as verifying whether certain services are disabled, checking file permissions, ensuring certain ports are closed, and more.
+
+Project Overview
+Objective: Automate the verification of security compliance on remote servers.
+Tools Used: Python, Paramiko.
+Features:
+Connect to remote servers via SSH.
+Run predefined commands or checks to verify security compliance.
+Generate a report summarizing the compliance status of each server.
+
+Project Structure:
+Security Compliance Checker/
+│
+├── compliance_checker.py    # Main Python script for compliance checking
+├── servers.yaml             # YAML file listing the servers to check
+├── compliance_checks.yaml   # YAML file defining the compliance checks
+└── reports/                 # Directory to save the compliance reports

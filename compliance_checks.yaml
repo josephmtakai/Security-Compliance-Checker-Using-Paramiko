@@ -1,0 +1,14 @@
+---
+checks:
+  - name: "Check SSH root login"
+    command: "grep '^PermitRootLogin no' /etc/ssh/sshd_config"
+    expected_output: "PermitRootLogin no"
+  - name: "Check UFW status"
+    command: "ufw status"
+    expected_output: "Status: active"
+  - name: "Check permissions on /etc/passwd"
+    command: "stat -c '%a' /etc/passwd"
+    expected_output: "644"
+  - name: "Check if HTTP is running"
+    command: "systemctl is-active apache2"
+    expected_output: "inactive"
